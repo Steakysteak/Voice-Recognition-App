@@ -45,6 +45,9 @@ function SpeechRecognitionComponent(): JSX.Element {
 
         setRecognizedText(
           newResults.reduce((sum, curr) => {
+            if (curr.transcript.toLowerCase().includes("stop")) {
+              setIsListening(false);
+            }
             return (sum += curr.transcript);
           }, "")
         );
