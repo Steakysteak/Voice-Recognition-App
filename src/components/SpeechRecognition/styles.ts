@@ -23,19 +23,19 @@ export const TitleText = styled("div")({
 });
 
 export const MicSubtitle = styled("p")({
-  color: "#8a8b9c",
+  color: "#220901",
 });
 
 export const SpeechText = styled("div")({});
 
 export const MicContainer = styled("div")({
-  border: "1px solid #593274",
+  border: "1px solid #ffd670",
   borderRadius: "50%",
   padding: "6px",
 });
 
 export const StopContainer = styled("div")({
-  border: "1px solid #593274",
+  border: "1px solid #ffd670",
   borderRadius: "50%",
   padding: "6px",
 });
@@ -43,7 +43,7 @@ export const StopContainer = styled("div")({
 export const MicButton = styled(Button)({
   borderRadius: "50%",
   color: "black",
-  backgroundColor: "#2BA3D2",
+  backgroundColor: "#ffea00",
   width: "60px",
   height: "60px",
 });
@@ -51,7 +51,7 @@ export const MicButton = styled(Button)({
 export const StopButton = styled(Button)({
   borderRadius: "50%",
   color: "black",
-  backgroundColor: "#2BA3D2",
+  backgroundColor: "#ffea00",
   width: "30px",
   height: "60px",
 });
