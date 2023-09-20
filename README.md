@@ -16,6 +16,7 @@ A powerful Voice-to-Text application using TypeScript and Styled Components. Thi
 ### How It Works
 My app harnesses the Web Speech API to capture audio input from your device's microphone. It then processes this audio, converting spoken words into text in real-time. The result is an efficient and convenient Voice-to-Text solution for various applications.
 
+### Deployed App: [Live App](https://voice-recognition-app-rust.vercel.app/)
 
 ### Snapshots from the App: 
 
