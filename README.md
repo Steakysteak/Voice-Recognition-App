@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Voice Recognition App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful Voice-to-Text application using TypeScript and Styled Components. This innovative app leverages the Web Speech API to convert spoken words into text in real-time, providing a seamless and intuitive user experience.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Real-Time Voice Recognition:** Effortlessly transcribe spoken words into text on-the-fly.
 
-## Expanding the ESLint configuration
+**TypeScript:** Built with TypeScript for enhanced code reliability and development productivity.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Styled Components:** Utilizes Styled Components for a modern and maintainable UI.
 
-- Configure the top-level `parserOptions` property like this:
+**User-Friendly Interface:** A sleek and intuitive interface that makes voice recognition a breeze.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### How It Works
+My app harnesses the Web Speech API to capture audio input from your device's microphone. It then processes this audio, converting spoken words into text in real-time. The result is an efficient and convenient Voice-to-Text solution for various applications.
+
+
+### Snapshots from the App: 
+
+![Vr1](https://github.com/Steakysteak/Voice-Recognition-App/assets/75496668/a6ec7da6-1e9a-4ce0-bad2-07cc20013d1b)
+
+![vr2](https://github.com/Steakysteak/Voice-Recognition-App/assets/75496668/54140fa2-a70f-41cf-a3bc-331c291d3145)
+
